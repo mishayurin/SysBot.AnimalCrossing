@@ -135,8 +135,8 @@ namespace SysBot.AnimalCrossing
                 return;
 
             // We don't want the bot to respond to itself or other bots.
-            if (msg.Author.Id == _client.CurrentUser.Id || msg.Author.IsBot)
-                return;
+            //if (msg.Author.Id == _client.CurrentUser.Id || msg.Author.IsBot)
+            //    return;
 
             // Create a number to track where the prefix ends and the command begins
             int pos = 0;
